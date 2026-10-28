@@ -2674,7 +2674,7 @@
 	)
 	(global_label "DRIV2.A1"
 		(shape input)
-		(at 118.11 86.36 180)
+		(at 118.11 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2684,7 +2684,7 @@
 		)
 		(uuid "051b6baa-93bd-4894-9c50-4322286dede9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.5976 86.36 0)
+			(at 106.779 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2770,7 +2770,7 @@
 	)
 	(global_label "DRIV4.B1"
 		(shape input)
-		(at 248.92 83.82 180)
+		(at 248.92 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2780,7 +2780,7 @@
 		)
 		(uuid "141877f7-407d-42fe-bb0c-b3c90785bae5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.4076 83.82 0)
+			(at 237.4076 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2866,7 +2866,7 @@
 	)
 	(global_label "DRIV3.B1"
 		(shape input)
-		(at 185.42 83.82 180)
+		(at 185.42 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2876,7 +2876,7 @@
 		)
 		(uuid "267a5834-5223-4095-9eb5-c407a4e7369f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.9076 83.82 0)
+			(at 173.9076 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3058,7 +3058,7 @@
 	)
 	(global_label "DRIV3.B2"
 		(shape input)
-		(at 185.42 78.74 180)
+		(at 185.42 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3068,7 +3068,7 @@
 		)
 		(uuid "44df598c-4ee0-4cb4-976d-5cb8718d8723")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.089 78.74 0)
+			(at 173.9076 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3346,7 +3346,7 @@
 	)
 	(global_label "DRIV1.A1"
 		(shape input)
-		(at 48.26 86.36 180)
+		(at 48.26 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3356,7 +3356,7 @@
 		)
 		(uuid "7431cacb-8eb0-445f-b47b-8040c254e014")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.7476 86.36 0)
+			(at 36.929 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3394,7 +3394,7 @@
 	)
 	(global_label "DRIV3.A1"
 		(shape input)
-		(at 185.42 86.36 180)
+		(at 185.42 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3404,7 +3404,7 @@
 		)
 		(uuid "7800bc5e-60a3-401e-8d47-ac341382890c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.9076 86.36 0)
+			(at 174.089 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3442,7 +3442,7 @@
 	)
 	(global_label "DRIV2.B2"
 		(shape input)
-		(at 118.11 78.74 180)
+		(at 118.11 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3452,7 +3452,7 @@
 		)
 		(uuid "7dfd40e4-4885-4b4f-b0dc-b9b8d957ab47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.779 78.74 0)
+			(at 106.5976 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3682,7 +3682,7 @@
 	)
 	(global_label "DRIV4.A1"
 		(shape input)
-		(at 248.92 86.36 180)
+		(at 248.92 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3692,7 +3692,7 @@
 		)
 		(uuid "975dd176-03ac-4582-bec6-62e21684f1f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.4076 86.36 0)
+			(at 237.589 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3850,7 +3850,7 @@
 	)
 	(global_label "DRIV4.B2"
 		(shape input)
-		(at 248.92 78.74 180)
+		(at 248.92 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3860,7 +3860,7 @@
 		)
 		(uuid "bc4665f3-7130-412e-99e8-ff13ed1f2ba7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.589 78.74 0)
+			(at 237.4076 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4258,7 @@
 	)
 	(global_label "DRIV1.B1"
 		(shape input)
-		(at 48.26 83.82 180)
+		(at 48.26 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4268,7 +4268,7 @@
 		)
 		(uuid "f7e5cec7-638e-4472-86d7-1b18178c0b43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.7476 83.82 0)
+			(at 36.7476 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4306,7 +4306,7 @@
 	)
 	(global_label "DRIV2.B1"
 		(shape input)
-		(at 118.11 83.82 180)
+		(at 118.11 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4316,7 +4316,7 @@
 		)
 		(uuid "f990ee3e-eb2a-45e6-b895-39a6c8790cac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.5976 83.82 0)
+			(at 106.5976 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,7 +4354,7 @@
 	)
 	(global_label "DRIV1.B2"
 		(shape input)
-		(at 48.26 78.74 180)
+		(at 48.26 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4364,7 +4364,7 @@
 		)
 		(uuid "fc30de64-36b8-4000-bb88-f6edf0b91e56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.929 78.74 0)
+			(at 36.7476 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4383,7 +4383,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 151.13 17.78) (xy 214.63 17.78) (xy 214.63 93.98) (xy 151.13 93.98)
+				(xy 151.13 17.78) (xy 214.63 17.78) (xy 214.63 73.66) (xy 151.13 73.66)
 			)
 			(stroke
 				(width 0)
@@ -4402,7 +4402,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 215.9 17.78) (xy 280.67 17.78) (xy 280.67 93.98) (xy 215.9 93.98)
+				(xy 215.9 17.78) (xy 281.94 17.78) (xy 281.94 73.66) (xy 215.9 73.66)
 			)
 			(stroke
 				(width 0)
@@ -4421,7 +4421,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 86.36 17.78) (xy 149.86 17.78) (xy 149.86 93.98) (xy 86.36 93.98)
+				(xy 86.36 17.78) (xy 149.86 17.78) (xy 149.86 73.66) (xy 86.36 73.66)
 			)
 			(stroke
 				(width 0)
@@ -4440,7 +4440,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 16.51 17.78) (xy 85.09 17.78) (xy 85.09 93.98) (xy 16.51 93.98)
+				(xy 16.51 17.78) (xy 85.09 17.78) (xy 85.09 73.66) (xy 16.51 73.66)
 			)
 			(stroke
 				(width 0)
@@ -4455,7 +4455,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 24.13 93.98 0)
+		(at 25.4 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4465,7 +4465,7 @@
 		)
 		(uuid "22715a14-34bb-4202-99b7-8311cf0367be")
 		(property "Netclass" ""
-			(at -189.23 62.23 0)
+			(at -187.96 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4475,7 +4475,7 @@
 			)
 		)
 		(property "Component Class" "DRIV1"
-			(at 24.8285 91.44 0)
+			(at 26.0985 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4490,7 +4490,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 160.02 93.98 0)
+		(at 158.75 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4500,7 +4500,7 @@
 		)
 		(uuid "7aa1ec2b-b83e-4e14-9413-2e4422cdcc84")
 		(property "Netclass" ""
-			(at -53.34 62.23 0)
+			(at -54.61 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4510,7 +4510,7 @@
 			)
 		)
 		(property "Component Class" "DRIV3"
-			(at 160.7185 91.44 0)
+			(at 159.4485 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4525,7 +4525,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 224.79 93.98 0)
+		(at 227.33 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4535,7 +4535,7 @@
 		)
 		(uuid "c0a2047e-15fe-4596-9923-1c5ae299308d")
 		(property "Netclass" ""
-			(at 11.43 62.23 0)
+			(at 13.97 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4545,7 +4545,7 @@
 			)
 		)
 		(property "Component Class" "DRIV4"
-			(at 225.4885 91.44 0)
+			(at 228.0285 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4560,7 +4560,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 95.25 93.98 0)
+		(at 95.25 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4570,7 +4570,7 @@
 		)
 		(uuid "d5745229-edb8-4758-8755-7a1536296ec7")
 		(property "Netclass" ""
-			(at -118.11 62.23 0)
+			(at -118.11 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4580,7 +4580,7 @@
 			)
 		)
 		(property "Component Class" "DRIV2"
-			(at 95.9485 91.44 0)
+			(at 95.9485 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4748,6 +4748,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 121.92 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d8d26be-6207-4c09-b5be-90ba83f2305c")
+		(property "Reference" "#PWR0111"
+			(at 121.92 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VMotor"
+			(at 122.428 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 121.92 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "791d9068-c92e-4c96-b6fe-9c07f513c8b0")
+		)
+		(instances
+			(project "fertilizer-pump"
+				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 53.34 81.28 0)
 		(unit 1)
@@ -4863,6 +4940,83 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 74.93 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11bd2dc7-72f4-452f-b8cb-6a5d6408c386")
+		(property "Reference" "#PWR0106"
+			(at 74.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VMotor"
+			(at 75.438 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 74.93 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3afe505a-3871-4023-8e64-b6a4f1b36c4b")
+		)
+		(instances
+			(project "fertilizer-pump"
+				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -4998,83 +5152,6 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 121.92 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "16e306c7-ade2-4648-bc28-41d464cc4e1e")
-		(property "Reference" "#PWR084"
-			(at 121.92 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PD_Power"
-			(at 122.428 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 121.92 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "941d1606-0f96-459b-b8b5-aecec13a9a0e")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
-					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5591,6 +5668,83 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 121.92 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2061889a-e002-43ca-bc85-cf0ad83c062b")
+		(property "Reference" "#PWR0109"
+			(at 121.92 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VMotor"
+			(at 122.428 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 121.92 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71307a38-7011-4ea9-b902-a640cdf1ef14")
+		)
+		(instances
+			(project "fertilizer-pump"
+				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -6732,6 +6886,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 74.93 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ad823f0-7a72-481b-b7a7-0c46b446424d")
+		(property "Reference" "#PWR0104"
+			(at 74.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VMotor"
+			(at 75.438 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 74.93 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5029d937-3ba5-4fb0-bb1b-2dbdaeaa98dc")
+		)
+		(instances
+			(project "fertilizer-pump"
+				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 38.1 139.7 0)
 		(unit 1)
@@ -6971,83 +7202,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 121.92 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "69213012-23fe-4f34-bebb-b70f5d028c1e")
-		(property "Reference" "#PWR083"
-			(at 121.92 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PD_Power"
-			(at 122.428 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 121.92 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08e822fa-aacd-4cb6-be78-2729c4a5ba5b")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 153.67 39.37 0)
 		(unit 1)
@@ -7119,6 +7273,83 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 121.92 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69e40cf3-8b67-4e6c-9500-6c77a7060462")
+		(property "Reference" "#PWR0110"
+			(at 121.92 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VMotor"
+			(at 122.428 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 121.92 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41e28922-ce26-42b4-9afb-1dd9ef49000e")
+		)
+		(instances
+			(project "fertilizer-pump"
+				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -7766,83 +7997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 74.93 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7bf89957-d2e4-41db-ab87-89df2bd7cccb")
-		(property "Reference" "#PWR079"
-			(at 74.93 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PD_Power"
-			(at 75.438 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 74.93 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "562dd248-1c35-4d8d-9634-4b8a5e3c3ea5")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 248.92 66.04 0)
 		(unit 1)
@@ -8268,6 +8422,83 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 74.93 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8af64357-37a6-4d2d-ab0f-ea243fa33fba")
+		(property "Reference" "#PWR0105"
+			(at 74.93 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VMotor"
+			(at 75.438 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 74.93 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "caaf86af-1a6d-4752-afff-436d8381f4eb")
+		)
+		(instances
+			(project "fertilizer-pump"
+				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -8860,83 +9091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 121.92 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a618fc98-f019-482b-80d9-abe27fda5409")
-		(property "Reference" "#PWR081"
-			(at 121.92 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PD_Power"
-			(at 122.428 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 121.92 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7098bf94-1768-417c-85c2-1075ca9dbeb9")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "fertilizer-pump:BTT TMC2209")
 		(at 118.11 46.99 0)
 		(unit 1)
@@ -9175,83 +9329,6 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 74.93 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ae37c0f0-26ae-473c-b149-fe0df8d9a2c3")
-		(property "Reference" "#PWR078"
-			(at 74.93 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PD_Power"
-			(at 75.438 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 74.93 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa8bd2ee-771b-46ce-8264-234866d009ac")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
-					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -9581,7 +9658,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 74.93 127 0)
+		(at 121.92 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9589,9 +9666,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c2c436ac-4120-4d8c-a056-675a63c47290")
-		(property "Reference" "#PWR077"
-			(at 74.93 130.81 0)
+		(uuid "c104e43e-7ae8-44db-8f97-7b30916248fd")
+		(property "Reference" "#PWR0108"
+			(at 121.92 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9601,8 +9678,8 @@
 				)
 			)
 		)
-		(property "Value" "PD_Power"
-			(at 75.438 123.19 0)
+		(property "Value" "VMotor"
+			(at 122.428 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9612,7 +9689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 127 0)
+			(at 121.92 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9623,7 +9700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 127 0)
+			(at 121.92 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9634,7 +9711,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 74.93 127 0)
+			(at 121.92 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9645,12 +9722,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c40de8a-f927-43e7-8b3b-5325ebee2a43")
+			(uuid "ff8eb888-7420-40fa-9d69-85910bfc57d0")
 		)
 		(instances
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
-					(reference "#PWR077")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -10529,83 +10606,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 74.93 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ec8255b9-39eb-491c-bf4a-e38938998770")
-		(property "Reference" "#PWR080"
-			(at 74.93 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PD_Power"
-			(at 75.438 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 74.93 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bffe198b-e753-4cac-bca9-68b14e7fb2aa")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 246.38 118.11 180)
 		(unit 1)
@@ -11054,6 +11054,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 74.93 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8c653c3-0e58-4adf-a0d8-069ce0bd047f")
+		(property "Reference" "#PWR0107"
+			(at 74.93 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VMotor"
+			(at 75.438 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 74.93 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "383c57ab-612b-4ee9-b97b-cbbdb2318762")
+		)
+		(instances
+			(project "fertilizer-pump"
+				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 261.62 27.94 0)
 		(unit 1)
@@ -11183,83 +11260,6 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 121.92 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ff2e97e4-92f8-4cf1-93e3-b46533721cb2")
-		(property "Reference" "#PWR082"
-			(at 121.92 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PD_Power"
-			(at 122.428 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 121.92 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7ad00b6-473e-4931-85b3-adf1e095f796")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444/4505858c-8c59-4e5e-ad57-8b3861649b80"
-					(reference "#PWR082")
 					(unit 1)
 				)
 			)
