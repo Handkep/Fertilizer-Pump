@@ -3934,6 +3934,12 @@
 		(uuid "39de2012-fd7b-483f-a799-874400f76959")
 	)
 	(junction
+		(at 101.6 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e38f61c-dc91-4efa-8b9b-b98a028e7595")
+	)
+	(junction
 		(at 33.02 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3980,12 +3986,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7eb8d9ae-d2e6-4440-a092-ba0f4081e501")
-	)
-	(junction
-		(at 101.6 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "824b1107-ffb3-4dc6-917f-df245c56f09f")
 	)
 	(junction
 		(at 85.09 118.11)
@@ -4683,7 +4683,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 124.46) (xy 101.6 123.19)
+			(xy 101.6 123.19) (xy 101.6 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4863,16 +4863,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 124.46) (xy 107.95 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3e87c2f-fc9f-4249-9943-ec3e36f42a3c")
-	)
-	(wire
-		(pts
 			(xy 180.34 67.31) (xy 180.34 68.58)
 		)
 		(stroke
@@ -4963,6 +4953,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 124.46) (xy 107.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b451b274-b867-4b1b-9d2a-f8a181cf64ac")
+	)
+	(wire
+		(pts
 			(xy 64.77 120.65) (xy 64.77 124.46)
 		)
 		(stroke
@@ -4990,6 +4990,16 @@
 			(type default)
 		)
 		(uuid "bb47c3e3-7cf9-4c7b-a703-574ae908d887")
+	)
+	(wire
+		(pts
+			(xy 93.98 124.46) (xy 101.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd85421b-e1c3-4736-bbf8-59f1c075b1f1")
 	)
 	(wire
 		(pts
@@ -5033,17 +5043,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 24.13) (xy 80.01 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2f29bb4-847c-4626-bbd0-7c946a9fb426")
-	)
-	(wire
-		(pts
-			(xy 87.63 22.86) (xy 87.63 24.13)
+			(xy 85.09 22.86) (xy 85.09 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5070,6 +5070,16 @@
 			(type default)
 		)
 		(uuid "ca9d0806-7a1a-4cad-b348-4dfea57cc84a")
+	)
+	(wire
+		(pts
+			(xy 101.6 124.46) (xy 101.6 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb03631b-dc36-42b3-a621-a610e6973a6d")
 	)
 	(wire
 		(pts
@@ -5123,16 +5133,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 124.46) (xy 101.6 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2e5c3ac-4769-4de3-8134-184879c73b7d")
-	)
-	(wire
-		(pts
 			(xy 24.13 115.57) (xy 33.02 115.57)
 		)
 		(stroke
@@ -5170,6 +5170,16 @@
 			(type default)
 		)
 		(uuid "eacedb75-0faf-4a02-87fb-429a7a80e680")
+	)
+	(wire
+		(pts
+			(xy 80.01 24.13) (xy 85.09 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed13e270-4fbe-4434-a233-d532274b9a9f")
 	)
 	(wire
 		(pts
@@ -7558,7 +7568,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 85.09 24.13 180)
+		(at 83.82 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7567,7 +7577,7 @@
 		)
 		(uuid "4abc6f42-45d8-4bca-8450-8975eb8f600f")
 		(property "Netclass" "Power"
-			(at 87.376 29.21 0)
+			(at 86.106 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7578,7 +7588,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 104.14 -104.14 90)
+			(at 102.87 -104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8334,83 +8344,6 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444/86a463a5-ffcd-42ab-ac8e-5a7cf12baa21"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 107.95 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2793161e-4b47-4fe7-90ad-83a531f51385")
-		(property "Reference" "#PWR042"
-			(at 107.95 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 107.95 112.268 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 107.95 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c82096e-c45d-4b62-9ba9-eee04db2c2ce")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444/86a463a5-ffcd-42ab-ac8e-5a7cf12baa21"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9821,83 +9754,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 107.95 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51850a5e-22b6-42bc-a40f-e888c5208078")
-		(property "Reference" "#PWR049"
-			(at 107.95 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 107.95 157.988 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 107.95 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a13aef22-2d7a-4030-a38f-c7b2e700530a")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444/86a463a5-ffcd-42ab-ac8e-5a7cf12baa21"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 151.13 22.86 0)
 		(unit 1)
@@ -10177,6 +10033,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 107.95 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a0f432b-b2a5-4a22-92ed-89ac30610fb3")
+		(property "Reference" "#PWR042"
+			(at 107.95 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 107.95 112.268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 107.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "181adbda-fe52-435d-9bd1-34e38c0ddd8a")
+		)
+		(instances
+			(project "fertilizer-pump"
+				(path "/156e031f-7691-48a3-975c-ba45ae33e444/86a463a5-ffcd-42ab-ac8e-5a7cf12baa21"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 48.26 132.08 0)
 		(unit 1)
@@ -10248,6 +10181,83 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444/86a463a5-ffcd-42ab-ac8e-5a7cf12baa21"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 107.95 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66236fb7-9b10-44b0-8368-79ce2ce2e9f6")
+		(property "Reference" "#PWR049"
+			(at 107.95 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 107.95 157.988 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 107.95 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "062e7cfb-4cab-498d-ad8b-965173e20201")
+		)
+		(instances
+			(project "fertilizer-pump"
+				(path "/156e031f-7691-48a3-975c-ba45ae33e444/86a463a5-ffcd-42ab-ac8e-5a7cf12baa21"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10752,7 +10762,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 87.63 22.86 0)
+		(at 85.09 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10762,7 +10772,7 @@
 		(dnp no)
 		(uuid "7685987d-1473-47bb-88c4-5450011198a9")
 		(property "Reference" "#PWR030"
-			(at 87.63 26.67 0)
+			(at 85.09 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10773,7 +10783,7 @@
 			)
 		)
 		(property "Value" "PD_Power"
-			(at 88.138 19.05 0)
+			(at 85.598 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10783,7 +10793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 22.86 0)
+			(at 85.09 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10794,7 +10804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 22.86 0)
+			(at 85.09 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10805,7 +10815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 87.63 22.86 0)
+			(at 85.09 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

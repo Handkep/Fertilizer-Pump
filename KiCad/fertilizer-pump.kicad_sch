@@ -1295,145 +1295,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -1736,7 +1597,7 @@
 		(uuid "10e4a0e8-521a-4701-a09d-5aad7443184a")
 	)
 	(junction
-		(at 261.62 71.12)
+		(at 261.62 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "227a786a-efc0-4675-af5b-bd890752412f")
@@ -1766,34 +1627,16 @@
 		(uuid "54df01ab-e7a0-42a2-af4d-8d0b9e1605bd")
 	)
 	(junction
-		(at 222.25 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dd2d284-b990-45c1-83a9-61dea33af6a0")
-	)
-	(junction
 		(at 110.49 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8092160d-d40a-4fc8-bd91-cc3b754583d2")
 	)
 	(junction
-		(at 228.6 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f53c111-9c04-4c74-94e2-f51cc19868c8")
-	)
-	(junction
 		(at 257.81 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a665e31e-dc56-4898-90fd-9d3ab4fc7e1a")
-	)
-	(junction
-		(at 234.95 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da93140e-9e38-44fb-b215-5baf0b64a53c")
 	)
 	(junction
 		(at 110.49 64.77)
@@ -1853,7 +1696,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 72.39) (xy 267.97 71.12)
+			(xy 267.97 71.12) (xy 267.97 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1923,16 +1766,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 69.85) (xy 228.6 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37abab58-1e85-4fab-b722-ae7580fb63dc")
-	)
-	(wire
-		(pts
 			(xy 236.22 27.94) (xy 236.22 24.13)
 		)
 		(stroke
@@ -1950,16 +1783,6 @@
 			(type default)
 		)
 		(uuid "45c45b56-c2d2-4bd4-a47b-fec4c3973b7b")
-	)
-	(wire
-		(pts
-			(xy 234.95 76.2) (xy 234.95 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dd59429-2878-49dd-867b-5759bb15add3")
 	)
 	(wire
 		(pts
@@ -1983,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 69.85) (xy 261.62 71.12)
+			(xy 261.62 68.58) (xy 261.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2003,17 +1826,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 71.12) (xy 222.25 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77087301-25f6-4563-9ac7-129e97c4c9cf")
-	)
-	(wire
-		(pts
-			(xy 261.62 71.12) (xy 261.62 72.39)
+			(xy 261.62 69.85) (xy 261.62 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2030,16 +1843,6 @@
 			(type default)
 		)
 		(uuid "7f9c06db-73d7-440f-9ca3-ad0f75eeaa00")
-	)
-	(wire
-		(pts
-			(xy 228.6 76.2) (xy 228.6 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "861ef43f-a69f-4d8f-9479-2f7f3bfb933d")
 	)
 	(wire
 		(pts
@@ -2063,7 +1866,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 71.12) (xy 267.97 71.12)
+			(xy 261.62 69.85) (xy 267.97 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2083,36 +1886,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 71.12) (xy 241.3 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96cbfd12-0a4a-4530-b00b-d85a2a1f43e0")
-	)
-	(wire
-		(pts
-			(xy 234.95 69.85) (xy 241.3 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97589af3-5b9f-46da-97da-9e1d128023a7")
-	)
-	(wire
-		(pts
-			(xy 222.25 76.2) (xy 222.25 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0795c40-f30e-4afa-abcd-ffd6162f5786")
-	)
-	(wire
-		(pts
 			(xy 223.52 24.13) (xy 223.52 27.94)
 		)
 		(stroke
@@ -2120,16 +1893,6 @@
 			(type default)
 		)
 		(uuid "a26f58a5-4f59-49d2-b053-cc78e683a014")
-	)
-	(wire
-		(pts
-			(xy 234.95 69.85) (xy 234.95 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9776dcc-c34d-4132-8c5a-a07ec7730d2c")
 	)
 	(wire
 		(pts
@@ -2150,16 +1913,6 @@
 			(type default)
 		)
 		(uuid "aaf0a6bb-6c95-416f-b023-0e46e0ef58ae")
-	)
-	(wire
-		(pts
-			(xy 222.25 67.31) (xy 222.25 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab5c5ecb-2a00-4ed8-9adc-5c43f6a36b3b")
 	)
 	(wire
 		(pts
@@ -2193,16 +1946,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 69.85) (xy 228.6 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1941f3c-653d-48c8-97aa-4bf58590b556")
-	)
-	(wire
-		(pts
 			(xy 69.85 71.12) (xy 69.85 72.39)
 		)
 		(stroke
@@ -2220,26 +1963,6 @@
 			(type default)
 		)
 		(uuid "e8528c49-eb63-4418-ab56-12d128415a5c")
-	)
-	(wire
-		(pts
-			(xy 228.6 69.85) (xy 234.95 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e86fe0e0-34d2-4363-9999-8cca1a98ac9d")
-	)
-	(wire
-		(pts
-			(xy 241.3 76.2) (xy 241.3 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb066e6b-acd7-439a-b749-007c4c2bdb62")
 	)
 	(wire
 		(pts
@@ -2321,7 +2044,7 @@
 	)
 	(global_label "I^{2}C.SDA"
 		(shape input)
-		(at 267.97 77.47 270)
+		(at 267.97 76.2 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2331,7 +2054,7 @@
 		)
 		(uuid "117e2ee3-1e9b-46c1-9645-903f2ce60853")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.97 87.4705 90)
+			(at 267.97 86.2005 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2463,30 +2186,6 @@
 			)
 		)
 	)
-	(global_label "~{DRIV4.ENABLE}"
-		(shape input)
-		(at 241.3 77.47 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "24ecc26d-06b9-4d83-a9fc-0905da4f4d04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 93.5181 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DRIV1.STEP"
 		(shape input)
 		(at 171.45 106.68 0)
@@ -2537,7 +2236,7 @@
 	)
 	(global_label "I^{2}C.SCL"
 		(shape input)
-		(at 261.62 77.47 270)
+		(at 261.62 76.2 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2547,7 +2246,7 @@
 		)
 		(uuid "29f8465c-ab62-41bd-9b74-fa14642c784a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.62 87.41 90)
+			(at 261.62 86.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2644,30 +2343,6 @@
 		(uuid "57fb30f1-7997-49bc-a726-4ded35566ac3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 55.9792 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "~{DRIV2.ENABLE}"
-		(shape input)
-		(at 228.6 77.47 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79b56e03-1e26-4464-a722-72a7d481a1f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6 93.5181 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2823,30 +2498,6 @@
 			)
 		)
 	)
-	(global_label "~{DRIV1.ENABLE}"
-		(shape input)
-		(at 222.25 77.47 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cf44688c-f44b-47e5-8037-f59763bde9cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.25 93.5181 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DRIV4.STEP"
 		(shape input)
 		(at 171.45 129.54 0)
@@ -2967,30 +2618,6 @@
 			)
 		)
 	)
-	(global_label "~{DRIV3.ENABLE}"
-		(shape input)
-		(at 234.95 77.47 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e210248d-42d5-454c-8d83-5654cb2e70aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.95 93.5181 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DRIV.UART.RX_{uC}"
 		(shape input)
 		(at 171.45 99.06 0)
@@ -3041,7 +2668,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 261.62 74.93 0)
+		(at 261.62 73.66 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3052,7 +2679,7 @@
 		(dnp no)
 		(uuid "06c82933-0ae5-41ea-bdcf-411ed6ede3c1")
 		(property "Reference" "R20"
-			(at 260.35 73.66 0)
+			(at 260.35 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3063,7 +2690,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 260.35 76.2 0)
+			(at 260.35 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3074,7 +2701,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 261.62 74.93 0)
+			(at 261.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3085,7 +2712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 74.93 0)
+			(at 261.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3096,7 +2723,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 261.62 74.93 0)
+			(at 261.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3107,7 +2734,7 @@
 			)
 		)
 		(property "LCSC" "C2930231"
-			(at 37.592 140.716 0)
+			(at 37.592 139.446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3118,7 +2745,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 261.62 74.93 0)
+			(at 261.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3129,7 +2756,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 261.62 74.93 0)
+			(at 261.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,7 +2767,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 261.62 74.93 0)
+			(at 261.62 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,209 +2787,6 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 222.25 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1a8e77ef-0c45-4e5b-ba01-c37328b24add")
-		(property "Reference" "#PWR01"
-			(at 222.25 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 221.488 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 222.25 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae706bd6-e2c5-4f1b-9fe2-353ad3b5991a")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 234.95 73.66 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "23b7b142-6d0a-4f8d-aafa-b3c8cfa34323")
-		(property "Reference" "R18"
-			(at 233.68 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 233.68 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 234.95 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 234.95 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2930231"
-			(at -10.16 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 234.95 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 234.95 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 234.95 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "da765615-6a01-42cb-b4b9-2effa9b21887")
-		)
-		(pin "1"
-			(uuid "845d0ebb-5c25-40ce-a99f-c8b2a6805975")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3567,132 +2991,6 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 241.3 73.66 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4413008a-90b4-4828-a2aa-1f6dba66f9e0")
-		(property "Reference" "R19"
-			(at 240.03 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 240.03 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 241.3 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 241.3 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2930231"
-			(at -10.16 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 241.3 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 241.3 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 241.3 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "447e25a3-cd34-4143-93d5-61c61c0091a5")
-		)
-		(pin "1"
-			(uuid "632ee1d1-3f47-4745-a5ac-78bf73c40300")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4646,7 +3944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SHOU HAN TS342A2P-WZ"
+		(property "Footprint" "hdk_footprints:SHOU HAN TS342A2P-WZ"
 			(at 231.14 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -4923,7 +4221,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 267.97 74.93 0)
+		(at 267.97 73.66 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4934,7 +4232,7 @@
 		(dnp no)
 		(uuid "9c3c7228-aa53-40d9-a9a4-5aafd26f211b")
 		(property "Reference" "R21"
-			(at 266.7 73.66 0)
+			(at 266.7 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4945,7 +4243,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 266.7 76.2 0)
+			(at 266.7 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4956,7 +4254,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 267.97 74.93 0)
+			(at 267.97 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4967,7 +4265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 74.93 0)
+			(at 267.97 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4978,7 +4276,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 267.97 74.93 0)
+			(at 267.97 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4989,7 +4287,7 @@
 			)
 		)
 		(property "LCSC" "C2930231"
-			(at 16.51 121.92 0)
+			(at 16.51 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5000,7 +4298,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 267.97 74.93 0)
+			(at 267.97 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5011,7 +4309,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 267.97 74.93 0)
+			(at 267.97 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5022,7 +4320,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 267.97 74.93 0)
+			(at 267.97 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5217,7 +4515,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 261.62 69.85 0)
+		(at 261.62 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5227,7 +4525,7 @@
 		(dnp no)
 		(uuid "ac63b4b3-ca2f-4a94-8bf6-48a530c203a5")
 		(property "Reference" "#PWR03"
-			(at 261.62 73.66 0)
+			(at 261.62 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5238,7 +4536,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 261.62 65.786 0)
+			(at 261.62 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5248,7 +4546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 69.85 0)
+			(at 261.62 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5259,7 +4557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 69.85 0)
+			(at 261.62 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5270,7 +4568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 261.62 69.85 0)
+			(at 261.62 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5287,132 +4585,6 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 222.25 73.66 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b398c907-4184-4e70-bbb6-125b7aeb1821")
-		(property "Reference" "R1"
-			(at 219.71 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 219.71 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 222.25 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 222.25 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2930231"
-			(at 222.25 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 222.25 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 222.25 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 222.25 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f73b3ed5-4f1b-4a82-bcc8-f1e58d6cd9d7")
-		)
-		(pin "1"
-			(uuid "6fccc979-21ad-4629-81e1-5668461a762e")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5450,7 +4622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SHOU HAN TS342A2P-WZ"
+		(property "Footprint" "hdk_footprints:SHOU HAN TS342A2P-WZ"
 			(at 265.43 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -5708,132 +4880,6 @@
 			(project "fertilizer-pump"
 				(path "/156e031f-7691-48a3-975c-ba45ae33e444"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 228.6 73.66 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d82a8f62-0786-44f4-9b6d-029d20adcbf0")
-		(property "Reference" "R2"
-			(at 227.076 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 227.076 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 228.6 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 228.6 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2930231"
-			(at -10.16 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 228.6 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 228.6 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 228.6 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5624a812-855c-48af-b55e-2ec6cca3fae8")
-		)
-		(pin "1"
-			(uuid "1d31d1c9-50ea-4458-aa72-cd189b6bd80f")
-		)
-		(instances
-			(project "fertilizer-pump"
-				(path "/156e031f-7691-48a3-975c-ba45ae33e444"
-					(reference "R2")
 					(unit 1)
 				)
 			)
