@@ -1290,6 +1290,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_TVS_Dual_AAC"
 			(pin_names
 				(offset 1.016)
@@ -3946,6 +4136,12 @@
 		(uuid "484ed823-260c-43d1-937f-d0a443ee6155")
 	)
 	(junction
+		(at 273.05 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a6f67ee-915c-4c39-8c3f-e260e38f9655")
+	)
+	(junction
 		(at 107.95 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3998,6 +4194,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d6c6596-8785-44ea-9a4e-708c3273a707")
+	)
+	(junction
+		(at 273.05 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aaf2d51-b974-4fd3-8f94-bee3186e3656")
 	)
 	(junction
 		(at 85.09 163.83)
@@ -4173,7 +4375,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 36.83) (xy 271.78 36.83)
+			(xy 267.97 36.83) (xy 273.05 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4200,6 +4402,16 @@
 			(type default)
 		)
 		(uuid "1f05ea6c-027a-40af-abfa-0a92a27eb1bd")
+	)
+	(wire
+		(pts
+			(xy 273.05 24.13) (xy 273.05 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223b925b-cec0-4fb1-abb5-7e0d59f05f05")
 	)
 	(wire
 		(pts
@@ -4753,6 +4965,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 31.75) (xy 267.97 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9050f148-14d6-469e-9a5d-069365867684")
+	)
+	(wire
+		(pts
 			(xy 68.58 24.13) (xy 69.85 24.13)
 		)
 		(stroke
@@ -4843,16 +5065,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 29.21) (xy 271.78 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0cb5d3e-1cdd-4cd1-8a85-413a4db47154")
-	)
-	(wire
-		(pts
 			(xy 149.86 38.1) (xy 148.59 38.1)
 		)
 		(stroke
@@ -4890,16 +5102,6 @@
 			(type default)
 		)
 		(uuid "a9d547c6-8bee-4cc8-9285-2ff8b1650a1a")
-	)
-	(wire
-		(pts
-			(xy 271.78 31.75) (xy 267.97 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac9d6835-a3d9-4fa7-8590-c675f0399f92")
 	)
 	(wire
 		(pts
@@ -7430,7 +7632,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 271.78 31.75 270)
+		(at 273.05 26.67 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7439,7 +7641,7 @@
 		)
 		(uuid "021a997a-a402-4244-8138-f86a101bc49e")
 		(property "Netclass" "Power"
-			(at 276.86 29.464 90)
+			(at 278.13 24.384 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7450,7 +7652,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 143.51 12.7 0)
+			(at 144.78 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8165,7 +8367,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C51048119"
+		(property "LCSC" "C51048211"
 			(at 85.09 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8201,6 +8403,16 @@
 		(property "Sim.Type" ""
 			(at 85.09 120.65 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Precision" "0.1%"
+			(at 81.534 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9754,6 +9966,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Small")
+		(at 273.05 34.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51f8d8fa-13f5-48aa-87f6-12f53e8fc963")
+		(property "Reference" "D8"
+			(at 275.59 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS14"
+			(at 275.59 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 273.05 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 273.05 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2480"
+			(at 273.05 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 273.05 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5eabc04b-bf05-4952-925b-03c985aa2ede")
+		)
+		(pin "2"
+			(uuid "bc0c5824-9889-4658-82c1-6ffe053862b3")
+		)
+		(instances
+			(project "fertilizer-pump"
+				(path "/156e031f-7691-48a3-975c-ba45ae33e444/86a463a5-ffcd-42ab-ac8e-5a7cf12baa21"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 151.13 22.86 0)
 		(unit 1)
@@ -10624,7 +10950,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C858840"
+		(property "LCSC" "C667047"
 			(at 85.09 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -10660,6 +10986,16 @@
 		(property "Sim.Type" ""
 			(at 85.09 173.99 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Precision" "0.1%"
+			(at 81.534 177.292 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12319,7 +12655,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C54102214"
+		(property "LCSC" "C47119950"
 			(at 85.09 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12355,6 +12691,16 @@
 		(property "Sim.Type" ""
 			(at 85.09 128.27 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Precision" "0.1%"
+			(at 82.042 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12504,7 +12850,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 36.83 0)
+		(at 273.05 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12514,7 +12860,7 @@
 		(dnp no)
 		(uuid "ae1c9dbe-428c-4cac-ab6e-c810f8f83ce0")
 		(property "Reference" "#PWR071"
-			(at 271.78 43.18 0)
+			(at 273.05 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12525,7 +12871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 40.386 0)
+			(at 273.05 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12535,7 +12881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 36.83 0)
+			(at 273.05 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12546,7 +12892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 36.83 0)
+			(at 273.05 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12557,7 +12903,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 36.83 0)
+			(at 273.05 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13394,7 +13740,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 77.47 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -14225,7 +14571,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 271.78 29.21 0)
+		(at 273.05 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14235,7 +14581,7 @@
 		(dnp no)
 		(uuid "e1b3ec29-c452-48ed-aa3e-10ead11d4411")
 		(property "Reference" "#PWR070"
-			(at 271.78 33.02 0)
+			(at 273.05 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14246,7 +14592,7 @@
 			)
 		)
 		(property "Value" "BJ_Power"
-			(at 272.288 25.4 0)
+			(at 273.558 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14256,7 +14602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 29.21 0)
+			(at 273.05 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14267,7 +14613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 29.21 0)
+			(at 273.05 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14278,7 +14624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 271.78 29.21 0)
+			(at 273.05 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14491,7 +14837,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2765186"
+		(property "LCSC" "C5178539"
 			(at 133.35 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14991,7 +15337,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C51048119"
+		(property "LCSC" "C51048211"
 			(at 85.09 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -15027,6 +15373,16 @@
 		(property "Sim.Type" ""
 			(at 85.09 166.37 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Precision" "0.1%"
+			(at 81.788 169.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15238,7 +15594,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 77.47 120.65 0)
 			(hide yes)
 			(show_name no)

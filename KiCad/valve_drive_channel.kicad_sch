@@ -1686,6 +1686,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 171.45 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d7189b3-9a6b-4389-b938-d201223805e7")
 		)
@@ -1803,6 +1814,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 133.35 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
 			(at 133.35 91.44 0)
 			(hide yes)
 			(show_name no)
