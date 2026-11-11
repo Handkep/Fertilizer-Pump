@@ -42,3 +42,4 @@ fp-info-cache
 # Local project settings
 *.kicad_prl
 *fp-lib-table
+KiCad/production/fertilizer-pump.zip

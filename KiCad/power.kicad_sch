@@ -8717,7 +8717,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 114.3 160.02 0)
+		(at 107.95 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8727,7 +8727,7 @@
 		(dnp no)
 		(uuid "2ec49e1f-3cd2-4b9f-86d4-5b39cefde2ac")
 		(property "Reference" "#PWR049"
-			(at 114.3 163.83 0)
+			(at 107.95 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8738,7 +8738,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 114.3 155.448 0)
+			(at 107.95 157.988 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8748,7 +8748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 160.02 0)
+			(at 107.95 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8759,7 +8759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 160.02 0)
+			(at 107.95 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8770,7 +8770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 160.02 0)
+			(at 107.95 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10944,7 +10944,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 114.3 114.3 0)
+		(at 107.95 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10954,7 +10954,7 @@
 		(dnp no)
 		(uuid "714230aa-2c71-42e8-bbe9-1c86083a15f7")
 		(property "Reference" "#PWR042"
-			(at 114.3 118.11 0)
+			(at 107.95 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10965,7 +10965,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 114.3 109.728 0)
+			(at 107.95 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10975,7 +10975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 114.3 0)
+			(at 107.95 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10986,7 +10986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 114.3 0)
+			(at 107.95 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10997,7 +10997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 114.3 0)
+			(at 107.95 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
