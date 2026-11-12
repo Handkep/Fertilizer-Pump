@@ -4034,7 +4034,7 @@
 			(justify left bottom)
 		)
 		(uuid "22715a14-34bb-4202-99b7-8311cf0367be")
-		(property "Netclass" ""
+		(property "Net Class" ""
 			(at -187.96 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4069,7 +4069,7 @@
 			(justify left bottom)
 		)
 		(uuid "7aa1ec2b-b83e-4e14-9413-2e4422cdcc84")
-		(property "Netclass" ""
+		(property "Net Class" ""
 			(at -54.61 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4104,7 +4104,7 @@
 			(justify left bottom)
 		)
 		(uuid "c0a2047e-15fe-4596-9923-1c5ae299308d")
-		(property "Netclass" ""
+		(property "Net Class" ""
 			(at 13.97 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4139,7 +4139,7 @@
 			(justify left bottom)
 		)
 		(uuid "d5745229-edb8-4758-8755-7a1536296ec7")
-		(property "Netclass" ""
+		(property "Net Class" ""
 			(at -118.11 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
