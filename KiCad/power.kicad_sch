@@ -945,7 +945,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15118,7 +15118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2505061156_SHOU-HAN-TYPE-C-16PIN-2MD-073_C2765186.pdf"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 137.16 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -15211,7 +15211,7 @@
 		(pin "B5"
 			(uuid "03d66db8-7393-47cb-a13f-2a1b947e9a2e")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "1da3022e-ba37-423a-8f7f-96ec45ca5d5b")
 		)
 		(pin "B6"
