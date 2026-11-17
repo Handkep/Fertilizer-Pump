@@ -2894,9 +2894,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -2904,7 +2908,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2913,8 +2917,8 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2945,7 +2949,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2967,7 +2971,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2978,9 +2982,9 @@
 					)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -2988,6 +2992,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -4050,6 +4074,12 @@
 		(uuid "c929884b-4184-4e01-9764-dda2784f2a89")
 	)
 	(junction
+		(at 214.63 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04c831a3-1794-4a1a-b3e3-b79ab3f73003")
+	)
+	(junction
 		(at 93.98 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4164,6 +4194,12 @@
 		(uuid "6c23797d-c1ca-4733-9b9a-699b24b62300")
 	)
 	(junction
+		(at 214.63 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7325ded8-121e-4d3d-be01-91bd913c2a2f")
+	)
+	(junction
 		(at 85.09 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4198,6 +4234,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6d04faa-a435-4fcd-8b6a-78514725efb9")
+	)
+	(junction
+		(at 214.63 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a760e761-5a5d-4c06-b8cc-b494b768f821")
 	)
 	(junction
 		(at 63.5 163.83)
@@ -4547,6 +4589,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 72.39) (xy 214.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f61dbf5-5e33-4a7e-8e89-ed5f6d4456d1")
+	)
+	(wire
+		(pts
 			(xy 231.14 33.02) (xy 231.14 34.29)
 		)
 		(stroke
@@ -4634,6 +4686,16 @@
 			(type default)
 		)
 		(uuid "50022d4d-e7e0-4787-a9fc-d7ca12c1929b")
+	)
+	(wire
+		(pts
+			(xy 214.63 67.31) (xy 214.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50935b3c-4cfb-4c10-bffd-a7efcea53ae9")
 	)
 	(wire
 		(pts
@@ -4944,6 +5006,16 @@
 			(type default)
 		)
 		(uuid "83e27ef8-990d-4c47-a3fc-3c4385105318")
+	)
+	(wire
+		(pts
+			(xy 214.63 62.23) (xy 214.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857fe168-d591-4bd6-bf02-7164750988a4")
 	)
 	(wire
 		(pts
@@ -5354,6 +5426,16 @@
 			(type default)
 		)
 		(uuid "d0552cea-eda1-44cb-b4c5-e8cae08a6a6f")
+	)
+	(wire
+		(pts
+			(xy 214.63 77.47) (xy 214.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3041aaa-8f20-4b1d-b4ef-0a40cde9bd79")
 	)
 	(wire
 		(pts
@@ -7712,7 +7794,7 @@
 			(justify right bottom)
 		)
 		(uuid "021a997a-a402-4244-8138-f86a101bc49e")
-		(property "Net Class" "Power"
+		(property "Netclass" "Power"
 			(at 281.686 23.876 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7747,7 +7829,7 @@
 			(justify left bottom)
 		)
 		(uuid "2122689f-0354-4f95-9c8d-137966908440")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at -275.59 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7782,7 +7864,7 @@
 			(justify left bottom)
 		)
 		(uuid "22229042-5cbe-482f-a699-864143a136fe")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at -275.59 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7816,7 +7898,7 @@
 			(justify left bottom)
 		)
 		(uuid "2fc9dea7-1446-45c8-b330-0a9b184dc890")
-		(property "Net Class" "Power"
+		(property "Netclass" "Power"
 			(at 63.754 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7850,7 +7932,7 @@
 			(justify right bottom)
 		)
 		(uuid "4abc6f42-45d8-4bca-8450-8975eb8f600f")
-		(property "Net Class" "Power"
+		(property "Netclass" "Power"
 			(at 86.106 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11226,6 +11308,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 214.63 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79dc6d9c-24c4-4062-8b5f-f39ba5a397d4")
+		(property "Reference" "#PWR084"
+			(at 214.63 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 84.836 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28e02ee0-a97f-49cd-9d00-04fe94867a1b")
+		)
+		(instances
+			(project "fertilizer-pump"
+				(path "/156e031f-7691-48a3-975c-ba45ae33e444/86a463a5-ffcd-42ab-ac8e-5a7cf12baa21"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 210.82 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -13509,8 +13668,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 217.17 62.23 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 217.17 62.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13521,7 +13680,7 @@
 		(fields_autoplaced yes)
 		(uuid "b463365b-f77c-43ae-bca0-443b23b368be")
 		(property "Reference" "H1"
-			(at 219.71 60.9599 0)
+			(at 220.98 60.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13532,7 +13691,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 219.71 63.4999 0)
+			(at 220.98 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13564,7 +13723,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 217.17 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -13585,6 +13744,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "b43d5ab4-b16d-42fc-95ed-6f184fd4c9e7")
 		)
 		(instances
 			(project "fertilizer-pump"
@@ -13673,8 +13835,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 217.17 77.47 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 217.17 77.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13685,7 +13847,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb46f2f3-ffd5-4b56-a0e2-dc872043395d")
 		(property "Reference" "H4"
-			(at 219.71 76.1999 0)
+			(at 220.98 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13696,7 +13858,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 219.71 78.7399 0)
+			(at 220.98 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13728,7 +13890,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -13738,6 +13900,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "157019ac-18ea-43ce-8c49-c56b7e4251f8")
 		)
 		(instances
 			(project "fertilizer-pump"
@@ -14136,8 +14301,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 217.17 72.39 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 217.17 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14148,7 +14313,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb3f061b-e7b7-40c8-b4a1-d3540f984798")
 		(property "Reference" "H3"
-			(at 219.71 71.1199 0)
+			(at 220.98 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14159,7 +14324,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 219.71 73.6599 0)
+			(at 220.98 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14191,7 +14356,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 217.17 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14201,6 +14366,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "2a3912ee-fd05-4113-a9f8-002f36198853")
 		)
 		(instances
 			(project "fertilizer-pump"
@@ -14212,8 +14380,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 217.17 67.31 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 217.17 67.31 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14224,7 +14392,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb885097-1ef9-40ee-bbe8-aa70f9297247")
 		(property "Reference" "H2"
-			(at 219.71 66.0399 0)
+			(at 220.98 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14235,7 +14403,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 219.71 68.5799 0)
+			(at 220.98 68.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14267,7 +14435,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 217.17 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14277,6 +14445,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "db795f97-5234-48c2-a6c4-e1aa12102822")
 		)
 		(instances
 			(project "fertilizer-pump"
