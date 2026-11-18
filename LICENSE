@@ -1,63 +1,48 @@
 Fertilizer-Pump licensing overview
 Copyright (c) 2026 Paulus Handke
 
-This repository contains works under different licenses. There is no single
-repository-wide noncommercial restriction. The following grants cover only
-original material for which Paulus Handke holds the relevant rights.
+- Original firmware and build configuration in Firmware/: GPL-3.0-only.
+  Full text: LICENSES/GPL-3.0-only.txt
+  Commercial use and distribution are permitted under the GPL. When distributing
+  firmware, provide the corresponding source and required notices under the GPL.
+- Original hardware designs in KiCad/, mechanical CAD, documentation and
+  illustrations: CC-BY-NC-SA-4.0, for copyright and similar rights in that material.
+  Full text: LICENSES/CC-BY-NC-SA-4.0.txt
+  Give credit, retain license notices, identify changes and share adaptations
+  under the license's ShareAlike terms.
 
-1. Firmware and its original build configuration
-   GPL-3.0-only (GNU General Public License, version 3 only).
-   Full text: LICENSES/GPL-3.0-only.txt
-   Commercial use and distribution are permitted under the GPL. Hardware and
-   documentation restrictions must not be imposed on this software.
+Except for the additional permissions below, commercial use of the licensed
+hardware design files and documentation, including using those files to
+manufacture products for sale, requires prior written permission from the
+relevant rights holders.
 
-2. Original hardware designs and manufacturing outputs
-   CC-BY-NC-SA-4.0 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-   International).
-   Full text: LICENSES/CC-BY-NC-SA-4.0.txt
-   Applies to copyright and similar rights in the protected design material.
-   Commercial use of those rights requires separate permission. This is not a
-   guarantee of control over physical manufacture or operation of hardware.
+Additional permissions (only for rights held by Paulus Handke):
 
-3. Original project documentation and illustrations
-   CC-BY-NC-SA-4.0 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-   International).
-   Full text: LICENSES/CC-BY-NC-SA-4.0.txt
-   Commercial use requires separate permission.
+- Paid fabrication: You may supply design files to paid PCB fabrication,
+  assembly or 3D-printing services for otherwise permitted noncommercial end use.
+  The service may copy the necessary files and make and deliver the ordered
+  items solely for that purpose. This permission does not cover production for
+  resale or independent commercial sales by the service.
+- Project presentations: You may reproduce and adapt project illustrations,
+  renderings and explanatory excerpts in freely accessible videos and articles,
+  including those funded by advertising, sponsorship or donations. For this use
+  only, the NonCommercial and ShareAlike conditions are waived; the presentation
+  may use its own license. Retain attribution, a project link and the CC license
+  notice, and identify changes. This permission does not cover paywalled content,
+  distribution of complete project file packages or manufacturing for resale.
+- Compliance notices: This overview and THIRD_PARTY_NOTICES.md may be reproduced
+  and distributed verbatim with attribution for license compliance, including
+  alongside commercial firmware distributions.
 
-See LICENSING.md for file assignments, contribution and release requirements,
-and THIRD_PARTY_NOTICES.md for third-party materials and unresolved provenance.
-Third-party rights are not relicensed by this overview. Individual notices and
-upstream licenses continue to apply, including to embedded library material.
-License texts themselves retain their own copying terms.
+Third-party material, including libraries, embedded CAD data and templates,
+retains its own terms and is excluded from these grants. See
+THIRD_PARTY_NOTICES.md. License texts retain their own copying terms.
+Contributors retain their rights; any necessary commercial permissions for their
+noncommercial contributions must be obtained individually.
 
-The CC BY-NC-SA 4.0 standard text is unmodified. Its attribution, NonCommercial
-and ShareAlike conditions apply as written. It does not require publication of
-editable CAD source, and does not license patents, trademarks or design rights.
-Creative Commons does not recommend its licenses for hardware; this project uses
-the license for protected design files, without claiming comprehensive control
-over physical products, independent designs or unprotected functional features.
-
-Separate additional permission for paid fabrication: To the extent of Paulus
-Handke's rights, a customer may give the design files to a paid fabrication or
-assembly service solely to fulfill an order for the customer's otherwise
-permitted noncommercial end use. The service may reproduce the necessary design
-material and make and deliver the ordered items for that purpose. This grant
-does not authorize independent commercial sales or other commercial exploitation,
-does not override third-party rights, and imposes no restriction on rights
-already granted by CC BY-NC-SA 4.0. It is an additional permission, not a change
-to the standard license.
-
-Additional permission for compliance notices: You may reproduce and distribute
-this licensing overview, LICENSING.md, THIRD_PARTY_NOTICES.md, and the production
-licensing instructions verbatim as needed to communicate or comply with license
-terms, including alongside commercial firmware distributions. Preserve their
-attribution. This does not grant commercial rights to other documentation or
-hardware designs, or change any third-party license.
-
-Commercial permission requests for the original hardware or documentation:
+Commercial permission requests:
 https://github.com/Handkep/Fertilizer-Pump/issues
-An inquiry or lack of response is not permission. Only a separate written
-agreement from the relevant rights holder grants additional rights.
+An unanswered request is not permission.
 
-This overview does not withdraw any rights validly granted for earlier copies.
+The standard license texts are unchanged. These additional permissions do not
+restrict rights already granted, including valid grants for earlier copies.

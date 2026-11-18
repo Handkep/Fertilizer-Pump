@@ -1,68 +1,38 @@
 # Third-party materials
 
 Original explanatory text: Copyright (c) 2026 Paulus Handke, CC-BY-NC-SA-4.0.
-Upstream notices and license texts retain their own terms. This inventory records
-known declarations and unresolved items; it is not a certification of a binary.
-The additional permission in `LICENSE` allows verbatim redistribution of this
-notice with commercial firmware releases for license compliance.
+Upstream material retains its own terms. See `LICENSE` for permission to copy
+this notice verbatim for license compliance, including commercially.
 
-## Firmware dependencies
+## Firmware
 
-`Firmware/Fertilizer Pump/platformio.ini` declares these dependencies. No local
-`.pio` package installation or resolved version manifest was found during this
-licensing change. The sources below verify the named versions, not a future
-resolution of the version ranges.
+Locally installed versions are listed below; dependency ranges in `platformio.ini`
+may resolve differently. This list is not a manifest of a particular binary.
 
-| Component | Declaration / verified reference | License and attribution |
-| --- | --- | --- |
-| AccelStepper | `waspinator/AccelStepper@^1.64`; reference 1.64 | GPLv3 or a separately negotiated commercial license; Copyright (C) Mike McCauley. This project selects the GPLv3 option. |
-| TMCStepper | `teemuatlut/TMCStepper@^0.7.3`; reference v0.7.3 | MIT; Copyright (c) 2019 teemuatlut. Full upstream text: `LICENSES/MIT-TMCStepper.txt`. |
-| ESP8266 Arduino core, including Arduino/SoftwareSerial dependencies | `platform = espressif8266`, `framework = arduino`; resolved version unavailable | Upstream reference 3.1.2 has an LGPL-2.1 root license. Files and bundled SDK/components can have different licenses; review the actual installed distribution before a binary release. |
+| Component | License and source |
+| --- | --- |
+| AccelStepper 1.64 | Copyright (C) Mike McCauley. [GPLv3 option selected](https://github.com/waspinator/AccelStepper/blob/1.64/LICENSE). |
+| TMCStepper 0.7.3 | Copyright (c) 2019 teemuatlut. [MIT](https://github.com/teemuatlut/TMCStepper/blob/v0.7.3/LICENSE); full notice: [LICENSES/MIT-TMCStepper.txt](LICENSES/MIT-TMCStepper.txt). |
+| ESP8266 Arduino core 3.1.2 (PlatformIO package 3.30102.0) | [LGPL-2.1](https://github.com/esp8266/Arduino/blob/3.1.2/LICENSE); package declares LGPL-2.1-or-later. Bundled libraries, SDK and other components retain their individual terms. |
 
-Upstream sources:
+When distributing firmware, include required upstream notices and license texts,
+provide the corresponding source under the applicable licenses, and check the
+components actually included in that build.
 
-- [AccelStepper 1.64 license](https://github.com/waspinator/AccelStepper/blob/1.64/LICENSE)
-- [AccelStepper licensing and commercial option](https://www.airspayce.com/mikem/arduino/AccelStepper/)
-- [TMCStepper v0.7.3 license](https://github.com/teemuatlut/TMCStepper/blob/v0.7.3/LICENSE)
-- [ESP8266 Arduino core 3.1.2 root license](https://github.com/esp8266/Arduino/blob/3.1.2/LICENSE)
-- [ESP8266 Arduino core repository](https://github.com/esp8266/Arduino)
+## CAD and templates
 
-These components retain their own terms. They are not subject to the CC-BY-NC-SA-4.0
-license on original project design files and documentation. Before
-distributing a binary, audit exact resolved versions and all bundled components
-using the checklist in `LICENSING.md`.
+Official KiCad libraries use [CC-BY-SA-4.0 with the design exception](https://www.kicad.org/libraries/license/).
+[Espressif's libraries](https://github.com/espressif/kicad-libraries/blob/master/LICENSE.md)
+declare the same terms; the project references `PCM_Espressif` symbols and footprints.
+Redistributed library collections retain upstream attribution and license documents.
 
-## KiCad symbols, footprints and models
+Origin and applicable licenses still need verification for:
 
-Official KiCad libraries use CC-BY-SA-4.0 with the design exception documented at
-<https://www.kicad.org/libraries/license/>. That exception allows designs using
-the library data to have other licenses. It does not generally exempt
-redistributed library collections from the library's terms. Preserve upstream
-license and attribution documents when distributing such collections.
+- `KiCad/lib/fertilizer-pump.kicad_sym` and both footprints in `KiCad/lib/fertilizer-pump.pretty/` (BTT TMC2209 and D_SOD-123FL).
+- The external `hdk_footprints` entries used by the project (rotary encoder connector and SHOU HAN switches).
+- Embedded STEP models: `TMC2209 V1.3.step`, `SW-SMD_L4.0-W2.9-H2-LS5.0.step`, `SOD-123FL_L2.8-W1.8-H1.1-LS3.6.step` and `DFN-10_L3.0-W3.0-P0.50-BL-EP2.5.step`.
 
-The following local files have no sufficiently verified provenance or individual
-license notice in this checkout:
-
-- `KiCad/lib/fertilizer-pump.kicad_sym`: module symbol referring to BIGTREETECH
-  TMC2209 documentation; this link does not establish authorship or permission.
-- `KiCad/lib/fertilizer-pump.pretty/BTT TMC2209.kicad_mod`: description refers to
-  a Pololu breakout footprint; the exact upstream source and modification history
-  are unconfirmed.
-- `KiCad/lib/fertilizer-pump.pretty/D_SOD-123FL.kicad_mod`: origin and license are
-  unconfirmed.
-
-These library files are excluded from the project's CC-BY-NC-SA-4.0 grant.
-Confirm their origin and retain upstream notices before redistributing them as
-a library collection. Apply the KiCad library license only after confirming the
-material actually comes from those libraries. The same principle applies to
-third-party data embedded in schematic/PCB files and generated outputs; a project
-license never overwrites upstream rights.
-
-## Templates and tools
-
-The `include/README`, `lib/README` and `test/README` within the firmware project
-contain PlatformIO instructional templates. PlatformIO boilerplate in build
-configuration, editor configuration, and ignore files is not claimed as original
-project documentation or hardware design. Tool-generated data and external CAD
-models must retain any applicable third-party terms. No license on the KiCad or
-PlatformIO application itself is being applied to the project's original output.
+These unverified parts are excluded from the project's license grants; their
+presence or a datasheet link does not establish permission to redistribute them.
+PlatformIO template READMEs, configuration boilerplate and editor settings also
+retain their upstream terms and are excluded from the project's original material.
