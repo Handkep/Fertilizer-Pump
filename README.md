@@ -93,11 +93,50 @@ Practical testing is still pending. The display has not yet been selected.
 
 ## Future Possibilities
 
-- Release as an open-source project
+- Release with open-source firmware and noncommercial hardware designs
 - A PCB kit or complete DIY kit
 - Accompanying project documentation on YouTube
 
 
 ## License
 
-A license has not yet been selected.
+Copyright (c) 2026 Paulus Handke. This is a mixed-license project:
+
+| Original project material | License |
+| --- | --- |
+| Firmware | [GPL-3.0-only](LICENSES/GPL-3.0-only.txt) |
+| Original hardware design files, including PCB, mechanical CAD and manufacturing outputs, to the extent protected by copyright or similar rights | [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt) |
+| Documentation and illustrations | [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt) |
+
+**Firmware may be used and distributed commercially under the GPL.** Hardware
+and documentation noncommercial restrictions do not apply to the firmware.
+
+The original protected design files and documentation may be copied, modified
+and shared for noncommercial purposes under CC BY-NC-SA 4.0. Give appropriate
+credit, retain required notices, link to the license and identify changes. Shared
+adaptations must follow the license's ShareAlike terms. Private changes need not
+be published, and the license does not require delivery of editable CAD source.
+
+**Commercial use of the protected design files or documentation requires
+separate permission from the relevant rights holder.** Whether a use is
+noncommercial depends on its purpose, not just the type of person or institution.
+
+The additional permission in [LICENSE](LICENSE) allows paid PCB fabrication,
+assembly or 3D printing solely for an otherwise permitted noncommercial end use.
+It does not grant permission for independent commercial sales.
+
+CC BY-NC-SA 4.0 governs copyright and similar rights in the files; it does not
+guarantee a ban on commercial manufacture or operation of physical pumps. It does
+not license patents, trademarks or design rights. Creative Commons does not
+recommend its licenses for hardware; see the [Creative Commons FAQ](https://creativecommons.org/faq/).
+
+Third-party libraries, symbols, footprints and other material retain their own
+licenses. The project license does not grant rights in unprotected ideas or
+independently developed hardware, and does not withdraw earlier valid grants.
+
+See [LICENSE](LICENSE), [file assignments and release requirements](LICENSING.md),
+and [third-party notices and unresolved provenance](THIRD_PARTY_NOTICES.md).
+For commercial permission for the original hardware or documentation, contact
+Paulus Handke through [repository issues](https://github.com/Handkep/Fertilizer-Pump/issues).
+Permission requires a separate written agreement; an unanswered request is not
+consent.

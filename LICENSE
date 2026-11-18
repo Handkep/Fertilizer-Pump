@@ -1,0 +1,63 @@
+Fertilizer-Pump licensing overview
+Copyright (c) 2026 Paulus Handke
+
+This repository contains works under different licenses. There is no single
+repository-wide noncommercial restriction. The following grants cover only
+original material for which Paulus Handke holds the relevant rights.
+
+1. Firmware and its original build configuration
+   GPL-3.0-only (GNU General Public License, version 3 only).
+   Full text: LICENSES/GPL-3.0-only.txt
+   Commercial use and distribution are permitted under the GPL. Hardware and
+   documentation restrictions must not be imposed on this software.
+
+2. Original hardware designs and manufacturing outputs
+   CC-BY-NC-SA-4.0 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+   International).
+   Full text: LICENSES/CC-BY-NC-SA-4.0.txt
+   Applies to copyright and similar rights in the protected design material.
+   Commercial use of those rights requires separate permission. This is not a
+   guarantee of control over physical manufacture or operation of hardware.
+
+3. Original project documentation and illustrations
+   CC-BY-NC-SA-4.0 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+   International).
+   Full text: LICENSES/CC-BY-NC-SA-4.0.txt
+   Commercial use requires separate permission.
+
+See LICENSING.md for file assignments, contribution and release requirements,
+and THIRD_PARTY_NOTICES.md for third-party materials and unresolved provenance.
+Third-party rights are not relicensed by this overview. Individual notices and
+upstream licenses continue to apply, including to embedded library material.
+License texts themselves retain their own copying terms.
+
+The CC BY-NC-SA 4.0 standard text is unmodified. Its attribution, NonCommercial
+and ShareAlike conditions apply as written. It does not require publication of
+editable CAD source, and does not license patents, trademarks or design rights.
+Creative Commons does not recommend its licenses for hardware; this project uses
+the license for protected design files, without claiming comprehensive control
+over physical products, independent designs or unprotected functional features.
+
+Separate additional permission for paid fabrication: To the extent of Paulus
+Handke's rights, a customer may give the design files to a paid fabrication or
+assembly service solely to fulfill an order for the customer's otherwise
+permitted noncommercial end use. The service may reproduce the necessary design
+material and make and deliver the ordered items for that purpose. This grant
+does not authorize independent commercial sales or other commercial exploitation,
+does not override third-party rights, and imposes no restriction on rights
+already granted by CC BY-NC-SA 4.0. It is an additional permission, not a change
+to the standard license.
+
+Additional permission for compliance notices: You may reproduce and distribute
+this licensing overview, LICENSING.md, THIRD_PARTY_NOTICES.md, and the production
+licensing instructions verbatim as needed to communicate or comply with license
+terms, including alongside commercial firmware distributions. Preserve their
+attribution. This does not grant commercial rights to other documentation or
+hardware designs, or change any third-party license.
+
+Commercial permission requests for the original hardware or documentation:
+https://github.com/Handkep/Fertilizer-Pump/issues
+An inquiry or lack of response is not permission. Only a separate written
+agreement from the relevant rights holder grants additional rights.
+
+This overview does not withdraw any rights validly granted for earlier copies.

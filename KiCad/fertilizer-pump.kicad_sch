@@ -3459,43 +3459,19 @@
 			)
 		)
 	)
-	(global_label "SERVO2.PWM"
-		(shape input)
-		(at 38.1 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0641ca27-9647-4654-9009-c1a2bb50ec1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.0801 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "ENC1.B"
 		(shape input)
-		(at 38.1 133.35 180)
+		(at 129.54 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "074c0a2f-25d9-4ec5-bc55-28d757ab8156")
+		(uuid "05bfd719-58c9-4106-9e26-e34563a5ee2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.4105 133.35 0)
+			(at 139.359 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3503,7 +3479,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3544,30 +3520,6 @@
 		(uuid "117e2ee3-1e9b-46c1-9645-903f2ce60853")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 267.97 86.2005 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SERVO3.PWM"
-		(shape input)
-		(at 38.1 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "16f13055-f388-48a3-86a0-e85e72d1f17b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.0801 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3627,19 +3579,19 @@
 			)
 		)
 	)
-	(global_label "DRIV1.DIR"
+	(global_label "~{DRIV1.ENABLE}"
 		(shape input)
-		(at 129.54 140.97 0)
+		(at 38.1 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "23199be2-e6d8-4910-af3c-b11f9e90ee5b")
+		(uuid "1f7487ad-d874-4cd8-bcad-409f7b6325c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.7177 140.97 0)
+			(at 22.0519 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3647,13 +3599,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
-	(global_label "DRIV1.STEP"
+	(global_label "I^{2}C.SDA"
 		(shape input)
-		(at 129.54 138.43 0)
+		(at 129.54 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3661,9 +3613,9 @@
 			)
 			(justify left)
 		)
-		(uuid "258bd8c8-f9e5-4c36-ac6b-d669fb27ff6f")
+		(uuid "24fd910b-1507-426b-91c3-4e2a8036748d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.169 138.43 0)
+			(at 141.7177 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3747,6 +3699,30 @@
 			)
 		)
 	)
+	(global_label "~{DRIV2.ENABLE}"
+		(shape input)
+		(at 38.1 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "378b5298-eb7c-48da-9252-d12b7b2358d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.0519 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DRIV2.STEP"
 		(shape input)
 		(at 129.54 146.05 0)
@@ -3771,9 +3747,33 @@
 			)
 		)
 	)
+	(global_label "SERVO2.PWM"
+		(shape input)
+		(at 129.54 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4535c470-014f-4e4a-822b-819dc77f5db9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.5599 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DRIV4.DIR"
 		(shape input)
-		(at 129.54 163.83 0)
+		(at 129.54 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3783,7 +3783,7 @@
 		)
 		(uuid "46e24b25-5c9c-40a9-a689-d6a0183858b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.7177 163.83 0)
+			(at 139.48 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,33 +3819,9 @@
 			)
 		)
 	)
-	(global_label "ENC1.A"
-		(shape input)
-		(at 38.1 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4809d0df-001e-41ec-a205-29ab457dd9ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.281 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "I^{2}C.SCL"
 		(shape input)
-		(at 129.54 168.91 0)
+		(at 129.54 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3855,7 +3831,7 @@
 		)
 		(uuid "4cd14a80-0aa3-437a-b1bc-9229c181d229")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.48 168.91 0)
+			(at 139.5405 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3915,6 +3891,30 @@
 			)
 		)
 	)
+	(global_label "DRIV1.STEP"
+		(shape input)
+		(at 38.1 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58322760-e385-4f18-9090-94054452a103")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.471 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ENC1.B"
 		(shape input)
 		(at 196.85 54.61 0)
@@ -3963,6 +3963,30 @@
 			)
 		)
 	)
+	(global_label "SERVO3.PWM"
+		(shape input)
+		(at 129.54 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67363c92-4939-4c15-bfe8-a747c916d26e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.5599 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "I^{2}C.SCL"
 		(shape input)
 		(at 93.98 35.56 180)
@@ -3976,6 +4000,30 @@
 		(uuid "87a1e149-b15e-4084-b9d7-aed95c29a82b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.9795 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DRIV1.DIR"
+		(shape input)
+		(at 38.1 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8aa1a642-bb9a-4cd0-bd5e-4166929dfb6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.9223 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4059,30 +4107,6 @@
 			)
 		)
 	)
-	(global_label "I^{2}C.SDA"
-		(shape input)
-		(at 129.54 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a5f139da-fe3c-42da-8461-ca77bd9de1be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.5405 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DRIV3.STEP"
 		(shape input)
 		(at 129.54 153.67 0)
@@ -4131,30 +4155,6 @@
 			)
 		)
 	)
-	(global_label "~{DRIV1.ENABLE}"
-		(shape input)
-		(at 129.54 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c0437aa8-bec1-4db3-8777-c8d45a790aec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.5881 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "~{DRIV3.ENABLE}"
 		(shape input)
 		(at 129.54 151.13 0)
@@ -4179,9 +4179,9 @@
 			)
 		)
 	)
-	(global_label "~{DRIV2.ENABLE}"
+	(global_label "ENC1.A"
 		(shape input)
-		(at 129.54 143.51 0)
+		(at 129.54 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4189,9 +4189,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c7e10d00-05ae-4800-aef6-ff9f6d25f35f")
+		(uuid "c6119a3b-4e22-4b88-bbbe-9c164f49bb22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.5881 143.51 0)
+			(at 139.1776 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

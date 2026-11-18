@@ -1,3 +1,6 @@
+// Copyright (c) 2026 Paulus Handke
+// SPDX-License-Identifier: GPL-3.0-only
+
 #include <Arduino.h>
 #include <AccelStepper.h>
 #include <TMCStepper.h>
