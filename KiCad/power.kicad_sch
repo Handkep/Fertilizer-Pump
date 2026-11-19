@@ -7794,7 +7794,7 @@
 			(justify right bottom)
 		)
 		(uuid "021a997a-a402-4244-8138-f86a101bc49e")
-		(property "Net Class" "Power"
+		(property "Netclass" "Power"
 			(at 281.686 23.876 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7829,7 +7829,7 @@
 			(justify left bottom)
 		)
 		(uuid "2122689f-0354-4f95-9c8d-137966908440")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at -275.59 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7864,7 +7864,7 @@
 			(justify left bottom)
 		)
 		(uuid "22229042-5cbe-482f-a699-864143a136fe")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at -275.59 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7898,7 +7898,7 @@
 			(justify left bottom)
 		)
 		(uuid "2fc9dea7-1446-45c8-b330-0a9b184dc890")
-		(property "Net Class" "Power"
+		(property "Netclass" "Power"
 			(at 63.754 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7932,7 +7932,7 @@
 			(justify right bottom)
 		)
 		(uuid "4abc6f42-45d8-4bca-8450-8975eb8f600f")
-		(property "Net Class" "Power"
+		(property "Netclass" "Power"
 			(at 86.106 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
