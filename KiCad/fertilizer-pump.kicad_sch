@@ -3719,17 +3719,17 @@
 	)
 	(global_label "SERVO2.PWM"
 		(shape input)
-		(at 146.05 133.35 0)
+		(at 54.61 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4535c470-014f-4e4a-822b-819dc77f5db9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.0699 133.35 0)
+			(at 39.5901 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3737,7 +3737,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3911,7 +3911,7 @@
 	)
 	(global_label "SERVO3.PWM"
 		(shape input)
-		(at 146.05 130.81 0)
+		(at 146.05 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3921,7 +3921,7 @@
 		)
 		(uuid "67363c92-4939-4c15-bfe8-a747c916d26e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.0699 130.81 0)
+			(at 161.0699 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3959,17 +3959,17 @@
 	)
 	(global_label "SERVO1.PWM"
 		(shape input)
-		(at 184.15 137.16 0)
+		(at 54.61 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8856341c-694f-4642-bc0c-0d77d58bf3f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.1699 137.16 0)
+			(at 39.5901 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3977,7 +3977,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4055,17 +4055,17 @@
 	)
 	(global_label "SERVO4.PWM"
 		(shape input)
-		(at 54.61 107.95 180)
+		(at 146.05 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c2fcb0f1-089d-4523-864a-8588f10a27bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.5901 107.95 0)
+			(at 161.0699 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4073,7 +4073,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
